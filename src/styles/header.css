@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  gap: 48px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 17px;
+}
+
+.header__nav {
+  display: flex;
+  gap: 60px;
+}
+
+.button {
+  padding: 12px 30px;
+  background-color: var(--color-primary);
+  border-radius: 12px;
+}
+@media (max-width: 594px) {
+  header {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 425px) {
+  header {
+    flex-direction: column;
+    gap: 27px;
+  }
+}

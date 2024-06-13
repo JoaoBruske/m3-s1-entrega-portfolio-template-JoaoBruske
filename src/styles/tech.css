@@ -1,0 +1,25 @@
+.techSection .title2 {
+  margin-bottom: 28px;
+}
+
+.techList {
+  display: flex;
+  gap: 17px;
+  flex-wrap: wrap;
+}
+
+.techCard {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  padding: 25px 30px;
+  border-radius: 25px;
+  flex-basis: 287px;
+}
+
+@media (max-width: 390px) {
+  .techCard {
+    flex-basis: 100%;
+  }
+}

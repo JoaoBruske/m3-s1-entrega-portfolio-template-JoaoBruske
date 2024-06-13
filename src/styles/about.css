@@ -1,0 +1,23 @@
+.aboutSection {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 70px;
+  margin-top: 88px;
+  margin-bottom: 100px;
+}
+
+.aboutSection .paragraph {
+  flex-basis: 65%;
+}
+
+@media (max-width: 860px) {
+  .aboutSection .paragraph {
+    flex-basis: 100%;
+  }
+}
+@media (max-width: 390px) {
+  .aboutSection {
+    gap: 25px;
+  }
+}

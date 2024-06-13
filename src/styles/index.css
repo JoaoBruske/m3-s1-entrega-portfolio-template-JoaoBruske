@@ -1,0 +1,27 @@
+@import "./typography.css";
+@import "./buttons.css";
+@import "./tech.css";
+@import "./colors.css";
+@import "./reset.css";
+@import "./header.css";
+@import "./banner.css";
+@import "./about.css";
+@import "./projects.css";
+@import "./footer.css";
+
+body {
+  background: linear-gradient(
+    to bottom,
+    rgba(12, 12, 12, 1),
+    rgba(12, 12, 12, 0.94)
+  );
+  /* background-color: var(--color-black); */
+}
+
+.page__container {
+  max-width: 954px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 29px;
+  padding-bottom: 28px;
+}

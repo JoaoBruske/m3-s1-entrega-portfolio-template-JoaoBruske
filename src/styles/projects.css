@@ -1,0 +1,28 @@
+.projectSection{
+    margin-top: 100px;
+    margin-bottom: 64px;
+}
+.projectSection .title2{
+    margin-bottom: 28px;
+}
+
+.projectList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.projectCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: solid 1px rgba(255,255,255, .5);
+    border-radius: 25px;
+    padding: 27px 21px 20px 33px;
+    flex-basis: 439px;
+}
+
+.projectCard .paragraph{
+    margin-top: 17px;
+    margin-bottom: 32px;
+}
